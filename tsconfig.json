@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",           // Use ESNext para compatibilidade com ESM
+    "target": "ES6",              // ES6 ou superior
+    "outDir": "./dist",           // Diretório de saída
+    "rootDir": "./src",           // Diretório raiz dos arquivos TS
+    "strict": true,               // Habilita verificações estritas
+    "esModuleInterop": true,      // Habilita interoperabilidade entre CommonJS e ESM
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],         // Inclui os arquivos TypeScript
+  "exclude": ["node_modules"]
+}
